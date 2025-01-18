@@ -1,0 +1,177 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Open Sans", serif;
+}
+
+/* common css added */
+.btn-color-primary {
+    padding: 15px 35px;
+    font-size: 18px;
+    font-weight: 700;
+    color: #fff;
+    background: tomato;
+    border: 0px;
+    border-radius: 5px;
+    letter-spacing: 1px;
+    line-height: normal;
+    cursor: pointer;
+}
+
+.text-center {
+    text-align: center;
+}
+
+/* navbar design css added */
+header {
+    background-color: #ff63473d;
+}
+
+header .nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 80%;
+    margin: 0 auto;
+}
+
+header .nav .logo h2 {
+    font-weight: 900;
+    font-size: 45px;
+    color: #474747;
+    line-height: normal;
+    margin: 0px;
+}
+
+header .nav .logo h2 span {
+    color: tomato;
+}
+
+header nav {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    gap: 10px;
+}
+
+header nav ul {
+    margin: 0px;
+    padding: 0px;
+}
+
+header nav ul li {
+    display: inline-block;
+    margin: 0px 5px;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    font-size: 16px;
+    color: #474747;
+    font-weight: 400;
+    line-height: normal;
+    transition: all .3s linear;
+}
+
+header nav ul li a:hover {
+    color: tomato;
+}
+
+/* banner content css added */
+main .banner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #ff63473d;
+    padding: 0 10%;
+    padding-top: 50px;
+}
+
+.banner .banner-content {
+    max-width: 500px;
+}
+
+.banner .banner-content h4 {
+    font-weight: 700;
+    font-size: 35px;
+    color: #474747;
+}
+
+.banner .banner-content h1 {
+    font-weight: 900;
+    font-size: 65px;
+    color: #474747;
+    margin: 0px;
+    line-height: normal;
+}
+
+.banner .banner-content article {
+    font-weight: 400;
+    font-size: 18px;
+    color: #474747;
+    margin: 15px 0;
+}
+
+.banner-images img {
+    max-width: 600px;
+}
+
+.banner .banner-images {
+    background-image: url(/day_2/images/profile-bg-images.png);
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+/* about us css added */
+.about-us {
+    margin: 100px 10%;
+    background-color: #ff63473d;
+    padding: 50px;
+}
+
+.about-us .title h4 {
+    font-weight: 700;
+    font-size: 35px;
+    color: #474747;
+}
+
+.about-us article {
+    font-weight: 400;
+    font-size: 18px;
+    color: #474747;
+    margin: 15px auto;
+    text-align: center;
+    max-width: 800px;
+}
+
+.about-us ul {
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+
+.about-us ul li {
+    list-style: none;
+    text-align: center;
+}
+
+.about-us ul li span {
+    font-weight: 400;
+    color: #444;
+    font-size: 14px;
+    display: block;
+    padding-bottom: 5px;
+}
+
+.about-us ul li p {
+    font-weight: 600;
+    color: #444;
+}
